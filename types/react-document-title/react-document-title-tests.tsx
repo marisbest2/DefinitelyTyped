@@ -6,3 +6,9 @@ class TitleTest extends React.Component<any, any> {
 		return <DocumentTitle title="Test" />;
 	}
 }
+
+class TitleTestOneChild extends React.Component<any, any> {
+    render() {
+        return <DocumentTitle title="Test">A Child</Document Title>;
+    }
+}
